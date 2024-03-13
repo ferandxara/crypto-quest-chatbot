@@ -1,0 +1,24 @@
+{
+  "name": "crypto-quest-chatbot",
+  "version": "1.0.2",
+  "description": "An interactive chatbot game that integrates with MongoDB and Ethereum blockchain for a unique gaming experience.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ferandxara/crypto-quest-chatbot"
+  },
+  "author": "ferandxara",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "mongodb": "^3.6.2",
+    "node-nlp": "^4.14.0",
+    "socket.io": "^2.3.0",
+    "ethers": "^5.0.24"
+  }
+}
